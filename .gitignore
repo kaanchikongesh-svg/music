@@ -1,0 +1,48 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+.env.local
+.env.production
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.class
+*.ipynb_checkpoints/
+
+# Node & Next.js cache & build files
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+dist/
+build/
+.turbo/
+
+# Database files
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+*.db
+*.sqlite
+*.sqlite3
+
+# Large Data files
+data/raw/
+data/processed/songs_processed.csv
+
+# Large Model weights
+models/*.pkl
+models/*.joblib
+
+# IDE & logs
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
